@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo';
+  title2= 'Success'
+  childTitle="";
+
+  getChildValue(event:string){
+    this.childTitle = event;
+  }
 }
